@@ -5,7 +5,7 @@ Energy > 150 kWh = 5kWh/day
 | Lifeline (0–15 kWh) | 250.0 | 0.0704 |
 | Energy 16–80 kWh | 546.4 | 0.1539 |
 | Energy 81–150 kWh | 355.1 | 0.1000 |
-| Energy >150 kWh | 412.8 | 0.1162 |
+| Energy [>150](https://ukb-dt.github.io/power-time/) kWh | 412.8 | 0.1162 |
 
 
 Here’s a clear breakdown, no jargon:
@@ -60,8 +60,4 @@ This describes the **type of connection** to your home or business.
 | **Single-phase (240V)** | 240V    | 1 live + 1 neutral | Most homes                                            |
 | **Three-phase (415V)**  | 415V    | 3 live + neutral   | Factories, welding, big motors, big pumps, apartments |
 
-If your Yaka meter is small (60A or below), you almost certainly have **single-phase**.
 
----
-
-## If you want, I can read the tariff PDF and output the full block structure (lifeline, domestic, commercial, street lighting, etc.) in clean table form like you liked earlier.
